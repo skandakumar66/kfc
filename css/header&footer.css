@@ -1,0 +1,122 @@
+ /* HEADER PART */
+
+ header {
+     position: sticky;
+     top: 0px;
+     background-color: white;
+     z-index: 4;
+ }
+
+ header nav {
+     height: 100px; 
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+
+ }
+
+ header nav ul {
+     display: flex;
+
+ }
+
+ header nav ul li {
+
+     list-style-type: none;
+     margin-right: 40px;
+ }
+
+ header nav ul li a {
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+
+ header nav #left-nav {
+     display: flex;
+     align-items: center;
+ }
+
+ header nav #left-nav img {
+     margin-right: 40px;
+
+ }
+
+ header nav #right-nav {
+
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+ }
+
+ header nav #right-nav * {
+
+     margin-right: 16px;
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+
+ header nav #right-nav #account-img {
+
+     width: 12%;
+
+ }
+
+ /* footer */
+
+ footer {
+
+     background-color: #202124;
+ }
+
+ footer #footer-part {
+     padding: 5%;
+     font-size: 15px;
+     line-height: 24px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ footer #footer-part ul li {
+     list-style-type: none;
+ }
+
+ footer #footer-part a {
+     color: #fff;
+ }
+
+ footer #footer-part ul li a {
+     text-decoration: none;
+ }
+
+ footer #footer-part #footer-img {
+     width: 27%;
+
+ }
+
+ footer #footer-part #footer-img img {
+     width: 43%;
+     margin-right: 15px;
+     height: 40px;
+
+ }
+
+ footer #footer-part #footer-logo {
+     margin-right: 20px;
+
+ }
+
+ footer #footer-part #footer-anchor {
+     margin-right: 25px;
+
+ }
+
+ footer #footer-last p {
+     color: white;
+     text-align: center;
+     padding: 20px 0px 14px;
+     font-size: 12px;
+     opacity: 0.8;
+ }

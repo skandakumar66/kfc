@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+header  #top-nav{
+    height: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+header  #top-nav h3{
+    font-size: 15px;
+    font-weight: normal;
+
+}
+header  #top-nav button{
+    height: 32px;
+    font-size: 12px;
+    width: 99px;
+    margin-left: 23px;
+    background: black;
+    color: white;
+    border-radius: 23px;
+    font-weight: bold;
+}
+
+ 
+#section1 #pre-sec{
+    display: flex;
+    background: #202124;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+}
+#section1 #pre-sec h4{
+color: white;
+}
+
+#section1 #pre-sec button{
+    background-color:#e4002b; 
+    color: white; 
+    font-size: 14px;    
+    width: 147px;
+    height: 45px;
+    border-radius: 51px;
+    margin-left: 15px;
+
+}
+#section1 a img{
+    width: 100%;
+}
+
+#section2{
+    background-color:orange;
+    margin-top:-4px;
+}
+
+#section2 #gradient{
+    width: 40px;
+    height: 20px;
+    background: repeating-linear-gradient(90deg,#e4002b,#e4002b 8px,#fff 0,#fff 16px);
+}
+
+#section2 #sec-content{
+    width: 30%;
+    margin-left: 13%;
+    height: 138px;
+
+}
+#section2 #sec-content h1{
+
+    letter-spacing: -2.5px;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 56px; 
+    color: #202124;
+    margin-top: 29.71px;
+    margin-bottom: 30px;
+
+}
+
+#section3 #sec-content{
+    width: 885px;
+    margin: 0px 80px 0px 140px;
+
+}
+#section3 #sec-content #first-part{
+    width: 885px;
+    height: 198px; 
+    display: flex;
+
+}
+
+#section3 #sec-content h1{
+    margin-right: 31px;
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 100px;
+    margin-bottom: 55px;
+
+}
+
+#section3 #horizontal{
+    border-top: 2px solid #e3e3e3;
+    margin-top: 120px;
+    width: 548px;
+    height: 76px;
+}
+#section3 #sec-content #flex-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+#section3 #sec-content #flex-boxes .boxes{
+    width: 17.8vw;
+    height: 17.8vw;
+    margin: 1%; 
+    background: #f8f7f5; 
+    border-radius: 4px; 
+    overflow: hidden;
+}
+
+#section3 #sec-content #flex-boxes .boxes a {
+    text-decoration: none;
+    color: black;
+}
+#section3 #sec-content #flex-boxes .boxes a img{
+    width: 100%;
+}
+
+#section3 #sec-content #flex-boxes .boxes a h4{
+text-align: center;
+margin-top: 8%;
+}
+
+#section4 #sec4-content{
+    margin-top: 90px;
+    background-color: #202124; 
+}
+
+#section4 #sec4-content{
+    padding-left: 15.2%; 
+
+}
+#section4 #sec4-content #gradient2{
+    width: 80px;
+    height: 42px;
+    background: repeating-linear-gradient(90deg,#e4002b ,#e4002b 18px,#202124 0px,#202124  32px);
+    margin-bottom: 4.6%;
+
+}
+#section4 #sec4-content #sec4-text{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 40px;
+
+}
+#section4 #sec4-content h2{
+ color: white;
+
+}
+#section4 #sec4-content a{
+
+    margin-right: 14%;
+    text-decoration: none;
+    color: white;
+
+}
+#section4 #sec4-content #img-cards{
+ 
+    text-decoration: none;
+    color: white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding-bottom: 58px;
+    
+}
+#section4 #sec4-content #img-cards .cards {
+    margin-right: 37px ;
+    width: 310px;
+    height: 398px;
+    border-radius: 8px;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+#section4 #sec4-content #img-cards .cards img{
+
+   width: 100%;
+}
+#section4 #sec4-content #img-cards .cards .card-text{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: -4px;
+}
+#section4 #sec4-content #img-cards .cards .card-text h1{
+    font-size: 25px; 
+    line-height: 48px;
+    color: #e4002b;
+}
+#section4 #sec4-content #img-cards .cards .card-text p{ 
+    font-size: 15px; 
+    text-align: center;
+    height: 48px;
+}
+#section4 #sec4-content #img-cards .cards .card-text .card-btns{ 
+    display: flex;
+    padding-bottom:30px ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#section4 #sec4-content #img-cards .cards .card-text .card-btns a{ 
+    color: black;
+    text-decoration: underline;  
+    font-size: 14px; 
+}
+#section4 #sec4-content #img-cards .cards .card-text .card-btns button{ 
+    font-size: 14px;
+    padding: 11;
+    padding: 11px 40px;
+    border-radius: 23px;
+    border: 1px solid #7e6d6d;
+    background: transparent;
+    cursor: pointer;
+}
+
+#progress{
+    width: 80%;
+    padding-bottom: 9%;
+}
